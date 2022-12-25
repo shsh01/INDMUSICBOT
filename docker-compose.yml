@@ -1,6 +1,6 @@
 version: "3.10"
 services:
-  worker:
+  web:
     build: .
     environment:
       AUTO_LEAVING_ASSISTANT: $AUTO_LEAVING_ASSISTANT # true
